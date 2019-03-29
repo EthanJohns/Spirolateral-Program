@@ -252,9 +252,8 @@ class GUI:
             self.label_prompt1.grid(row=0, column=0)
 
         except:
-            self.label_prompt1.configure(text='''There's no save file to load
-                                         from.\n Or the save file's
-                                         contents are corrupt.''')
+            self.label_prompt1.configure(text="There's no save file to load from.\n"
+                "Or the save file's contents are corrupt.")
             self.label_prompt1.grid(row=0, column=0)
 
     def quit(self):
